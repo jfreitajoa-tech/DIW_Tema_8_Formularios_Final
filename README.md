@@ -2,8 +2,7 @@
 
 **NutrIA** es una aplicación web moderna desarrollada con **React** y **Vite**. Está diseñada para ayudar a los usuarios a mejorar su alimentación mediante el registro de hábitos, acceso a recetas adaptadas y recomendaciones personalizadas.
 
-**[Ver Demo en Vivo](https://github.io)**
-
+https://jfreitajoa-tech.github.io/DIW_Tema_8_Formularios_Final/
 ---
 
 ##  Características Principales
