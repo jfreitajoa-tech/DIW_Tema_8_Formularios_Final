@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "/assets/images/nutrialogo.png";
+import logo from "../assets/images/nutrialogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export function Navbar() {
