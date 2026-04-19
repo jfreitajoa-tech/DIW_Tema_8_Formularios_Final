@@ -1,6 +1,6 @@
 import { Footer } from "../components/Footer.jsx";
-import videoTutorial from "../assets/video/tutorial.mp4";
-import subtitulos from "../assets/video/subtitulos.vtt";
+import videoTutorial from "../assets/video/tutorial.mp4?url";
+import subtitulos from "../assets/video/subtitulos.vtt?url";
 
 export function LandingPage({ navigate }) {
     return (
