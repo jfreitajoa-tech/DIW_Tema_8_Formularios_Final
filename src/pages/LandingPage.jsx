@@ -1,4 +1,6 @@
 import { Footer } from "../components/Footer.jsx";
+import videoTutorial from "../assets/video/tutorial.mp4";
+import subtitulos from "../assets/video/subtitulos.vtt";
 
 export function LandingPage({ navigate }) {
     return (
@@ -69,7 +71,7 @@ export function LandingPage({ navigate }) {
                     </div>
                 </section>
 
-                {/* Video tutorial */}
+                {/* Video tutorial corregido */}
                 <section className="mt-10 bg-white rounded-3xl p-6 shadow-lg">
                     <h2 className="text-lg font-semibold text-slate-900 flex items-center gap-2">
                         <span className="material-icons text-pink-600">play_circle</span>
@@ -82,7 +84,16 @@ export function LandingPage({ navigate }) {
 
                     <div className="mt-4 rounded-2xl overflow-hidden shadow">
                         <video className="w-full" controls>
-                            <source src="/assets/video/tutorial.mp4" type="video/mp4" />
+                            {/* Usamos las variables importadas en lugar de rutas de texto */}
+                            <source src={videoTutorial} type="video/mp4" />
+                            <track 
+                                label="Español" 
+                                kind="subtitles" 
+                                srcLang="es" 
+                                src={subtitulos} 
+                                default 
+                            />
+                            Tu navegador no soporta vídeos.
                         </video>
                     </div>
                 </section>
