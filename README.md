@@ -1,1 +1,37 @@
-"# jfreitajoa-tech-DIW_Tema_8_Formularios" 
+# 🦦 NutrIA - Tu Asistente Nutricional Personalizado
+
+**NutrIA** es una aplicación web moderna desarrollada con **React** y **Vite**. Está diseñada para ayudar a los usuarios a mejorar su alimentación mediante el registro de hábitos, acceso a recetas adaptadas y recomendaciones personalizadas.
+
+🚀 **[Ver Demo en Vivo](https://github.io)**
+
+---
+
+## ✨ Características Principales
+
+*   **Perfil Personalizado:** Los usuarios pueden gestionar sus datos y preferencias nutricionales.
+*   **Gestión de Hábitos:** Registro detallado de la dieta diaria y objetivos de salud.
+*   **Explorador de Recetas:** Acceso a una base de datos de recetas con información nutricional detallada.
+*   **Interfaz Responsiva:** Diseño optimizado para dispositivos móviles y escritorio utilizando **Tailwind CSS**.
+*   **Videotutorial:** Guía paso a paso integrada para aprender a usar la plataforma.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+*   **React 18** - Biblioteca de UI.
+*   **Vite** - Herramienta de construcción (Build tool) ultra rápida.
+*   **Tailwind CSS** - Framework de CSS para un diseño moderno y rápido.
+*   **JavaScript (ES6+)** - Lógica de la aplicación.
+*   **GitHub Actions** - Despliegue automatizado (CI/CD) a GitHub Pages.
+
+---
+
+## 📦 Instalación y Configuración
+
+Si quieres ejecutar este proyecto localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com
+   cd DIW_Tema_8_Formularios_Final
+
