@@ -1,12 +1,12 @@
-# 🦦 NutrIA - Tu Asistente Nutricional Personalizado
+# NutrIA - Tu Asistente Nutricional Personalizado
 
 **NutrIA** es una aplicación web moderna desarrollada con **React** y **Vite**. Está diseñada para ayudar a los usuarios a mejorar su alimentación mediante el registro de hábitos, acceso a recetas adaptadas y recomendaciones personalizadas.
 
-🚀 **[Ver Demo en Vivo](https://github.io)**
+**[Ver Demo en Vivo](https://github.io)**
 
 ---
 
-## ✨ Características Principales
+##  Características Principales
 
 *   **Perfil Personalizado:** Los usuarios pueden gestionar sus datos y preferencias nutricionales.
 *   **Gestión de Hábitos:** Registro detallado de la dieta diaria y objetivos de salud.
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 *   **React 18** - Biblioteca de UI.
 *   **Vite** - Herramienta de construcción (Build tool) ultra rápida.
@@ -25,13 +25,14 @@
 *   **GitHub Actions** - Despliegue automatizado (CI/CD) a GitHub Pages.
 
 ---
+## Estructura del Proyecto
 
-## 📦 Instalación y Configuración
-
-Si quieres ejecutar este proyecto localmente, sigue estos pasos:
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com
-   cd DIW_Tema_8_Formularios_Final
-
+├── src/
+│   ├── assets/         # Imágenes, iconos y videos
+│   ├── components/     # Componentes reutilizables (Navbar, Footer, etc.)
+│   ├── pages/          # Vistas principales (Landing, Recipes, Habits, etc.)
+│   ├── App.jsx         # Enrutador y lógica principal
+│   └── main.jsx        # Punto de entrada de React
+├── public/             # Archivos estáticos públicos
+├── tailwind.config.js  # Configuración de estilos
+└── vite.config.js      # Configuración de Vite y despliegue
